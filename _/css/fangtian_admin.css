@@ -1,0 +1,301 @@
+body {
+  padding: 50px 0;
+  font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+@media (max-width: 767px) {
+  body {
+    padding: 20px 0;
+  }
+}
+#login {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#login h2 {
+  font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#login .form-login {
+  max-width: 330px;
+  margin: 0 auto;
+  padding: 15px;
+}
+#login .form-login h2 {
+  font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+#login .form-login input[type='tel'],
+#login .form-login input[type='password'] {
+  font-size: 16px;
+  padding: 10px;
+  height: auto;
+}
+#login .form-login input[type='tel'] {
+  -webkit-border-radius: 3px 3px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px 3px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 3px 3px 0 0;
+  background-clip: padding-box;
+}
+#login .form-login input[type='password'] {
+  -webkit-border-radius: 0 0 3px 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding;
+  border-radius: 0 0 3px 3px;
+  background-clip: padding-box;
+}
+#login .form-login .checkbox span {
+  float: right;
+}
+#login .form-login .checkbox span a {
+  text-decoration: none;
+}
+nav {
+  font-size: 12px;
+  margin-right: 40px;
+}
+hr {
+  border-top: 1px solid #51586a;
+}
+#nav-toggleable-sm {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.brand-logo {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+@media (max-width: 767px) {
+  nav {
+    margin-right: 0;
+  }
+  .navbar {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}
+#calendar {
+  margin: 20px 0;
+}
+#calendar .fc table {
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+}
+#calendar table {
+  border-collapse: separate;
+}
+@media (max-width: 767px) {
+  #calendar .fc-left,
+  #calendar .fc-right {
+    margin-bottom: 15px;
+  }
+}
+.head_title {
+  font-size: 12px;
+  color: #51586a;
+  letter-spacing: 1px;
+}
+.dashboard li {
+  letter-spacing: 2px;
+}
+@media (max-width: 767px) {
+  .dashboard .col-sm-3,
+  .dashboard .col-sm-9 {
+    padding: 0;
+  }
+}
+.ft-header {
+  min-height: 40px;
+}
+.ft-header a {
+  text-decoration: none;
+  color: #51586a;
+}
+.ft-header button {
+  margin: 0;
+  border-color: #51586a;
+}
+.ft-header button:hover,
+.ft-header button:focus {
+  background-color: #51586a;
+}
+.ft-header button:hover .icon-bar,
+.ft-header button:focus .icon-bar {
+  border: 1px solid #fff;
+}
+.dashhead .dashhead_titles {
+  float: left;
+}
+.dashhead .dashhead_titles h3 {
+  letter-spacing: 3px;
+  font-size: 22px;
+}
+.dashhead .dashhead_toolbar {
+  float: right;
+}
+.dashhead .dashhead_toolbar .input-with-icon {
+  position: relative;
+  padding-top: 15px;
+  width: 185px;
+  float: left;
+}
+.dashhead .dashhead_toolbar .input-with-icon .start-time {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
+.dashhead .dashhead_toolbar .input-with-icon .end-time {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+@media (max-width: 767px) {
+  .dashhead .dashhead_toolbar .input-with-icon {
+    width: 100%;
+  }
+}
+.dashhead .dashhead_toolbar .input-with-icon #starttime {
+  padding-left: 30px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px 0 0 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px 0 0 4px;
+  background-clip: padding-box;
+}
+.dashhead .dashhead_toolbar .input-with-icon #endtime {
+  padding-right: 30px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0 4px 4px 0;
+  -moz-background-clip: padding;
+  border-radius: 0 4px 4px 0;
+  background-clip: padding-box;
+}
+.actions .btn {
+  margin-bottom: 10px;
+}
+.cover-image {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.cover-image img {
+  max-width: 200px;
+}
+.hr-divider {
+  margin: 20px 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+.hr-divider:before {
+  position: absolute;
+  top: 50%;
+  display: block;
+  content: "";
+  width: 100%;
+  background-color: #51586a;
+  height: 1px;
+}
+.hr-divider .hr-divider-heading {
+  position: relative;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: middle;
+  font-size: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #252830;
+  color: #51586a;
+}
+.students {
+  color: #cfd2da;
+}
+table .good {
+  color: #1bc98e;
+}
+table .good small {
+  background-color: #1bc98e;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  float: right;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+table .mal {
+  color: #e64759;
+}
+table .mal small {
+  background-color: #e64759;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  float: right;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+table .pass {
+  color: #e4d836;
+}
+table .pass small {
+  background-color: #e4d836;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  float: right;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+table nav {
+  margin-right: 0;
+}
+.comment .comment_list {
+  padding-left: 0;
+  list-style: none;
+}
+.comment .comment_list li {
+  float: left;
+  text-decoration: none;
+  padding-right: 20px;
+}
+#courseware_modal .modal-header .modal-with-select h4 {
+  letter-spacing: 2px;
+}
+#courseware_modal .modal-header .modal-with-select .form-group {
+  width: 160px;
+}
+#present_time,
+#answer_corret,
+#hw_score {
+  width: 100%;
+  height: 250px;
+}
+@media (max-width: 767px) {
+  #present_time,
+  #answer_corret,
+  #hw_score {
+    height: 180px;
+  }
+}

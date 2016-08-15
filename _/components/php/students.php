@@ -1,0 +1,153 @@
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>姓名</th>
+      <th>课时</th>
+      <th>出席时间</th>
+      <th>课堂答对题</th>
+      <th>课堂答错题</th>
+      <th>作业答对题</th>
+      <th>作业答错题</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td colspan="6">
+        <div class="bulk-actions align-left"></div>
+        <div class="pagination"> </div>
+        <!-- End .pagination -->
+        <div class="clear"></div>
+      </td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr class="alt-row">
+        <td>105</td>
+        <td>程思怡</td>
+        <td>第一讲</td>
+        <td>60</td>
+        <td>4</td>
+        <td>6</td>
+        <td>5</td>
+        <td>2</td>
+      </tr><tr>
+        <td>48</td>
+        <td>钟鼎</td>
+        <td>第一讲</td>
+        <td>105</td>
+        <td>8</td>
+        <td>2</td>
+        <td>7</td>
+        <td>0</td>
+      </tr><tr class="alt-row">
+        <td>1147</td>
+        <td>廖翔</td>
+        <td>第一讲</td>
+        <td>60</td>
+        <td>7</td>
+        <td>2</td>
+        <td></td>
+        <td></td>
+      </tr><tr>
+        <td>158</td>
+        <td>丁嘉轩</td>
+        <td>第一讲</td>
+        <td>30</td>
+        <td>4</td>
+        <td>1</td>
+        <td>4</td>
+        <td>3</td>
+      </tr><tr class="alt-row">
+        <td>1234</td>
+        <td>李松泽</td>
+        <td>第一讲</td>
+        <td>57</td>
+        <td>0</td>
+        <td>0</td>
+        <td>4</td>
+        <td>3</td>
+      </tr><tr>
+        <td>1455</td>
+        <td>吴童</td>
+        <td>第一讲</td>
+        <td>63</td>
+        <td>6</td>
+        <td>4</td>
+        <td>6</td>
+        <td>1</td>
+      </tr><tr class="alt-row">
+        <td>343</td>
+        <td>伊仁浩</td>
+        <td>第一讲</td>
+        <td>75</td>
+        <td>7</td>
+        <td>3</td>
+        <td>4</td>
+        <td>3</td>
+      </tr><tr>
+        <td>1343</td>
+        <td>黄文陶</td>
+        <td>第一讲</td>
+        <td>66</td>
+        <td>8</td>
+        <td>2</td>
+        <td>5</td>
+        <td>2</td>
+      </tr><tr class="alt-row">
+        <td>578</td>
+        <td>王紫萱</td>
+        <td>第一讲</td>
+        <td>63</td>
+        <td>6</td>
+        <td>4</td>
+        <td>4</td>
+        <td>3</td>
+      </tr><tr>
+        <td>1222</td>
+        <td>姚康琪</td>
+        <td>第一讲</td>
+        <td>54</td>
+        <td>7</td>
+        <td>2</td>
+        <td>7</td>
+        <td>0</td>
+      </tr><tr class="alt-row">
+        <td>987</td>
+        <td>朱佳琪</td>
+        <td>第一讲</td>
+        <td>78</td>
+        <td>5</td>
+        <td>5</td>
+        <td>3</td>
+        <td>4</td>
+      </tr><tr>
+        <td>786</td>
+        <td>朱正磊</td>
+        <td>第一讲</td>
+        <td>63</td>
+        <td>5</td>
+        <td>4</td>
+        <td>4</td>
+        <td>3</td>
+      </tr><tr class="alt-row">
+        <td>901</td>
+        <td>翁昊</td>
+        <td>第一讲</td>
+        <td>66</td>
+        <td>6</td>
+        <td>4</td>
+        <td>5</td>
+        <td>2</td>
+      </tr><tr>
+        <td>1290</td>
+        <td>庄韪菱</td>
+        <td>第一讲</td>
+        <td>57</td>
+        <td>4</td>
+        <td>3</td>
+        <td>6</td>
+        <td>1</td>
+      </tr>            
+    </tbody>
+</table>

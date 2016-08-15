@@ -1,0 +1,306 @@
+@import "variables.less";
+@import "lesshat.less";
+
+body {
+	padding: 50px 0;
+	font-family: @font-family-fangtian;
+	@media (max-width: @screen-xs-max) {
+		padding: 20px 0;
+	}
+}
+
+#login {
+	h2 {
+		font-family: @font-family-fangtian;
+	}
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.form-login {
+		max-width: 330px;
+		margin: 0 auto;
+		padding: 15px;
+
+		h2 {
+			font-family: @font-family-fangtian;
+			letter-spacing: 4px;
+			margin-bottom: 20px;
+		}
+
+		input[type='tel'], input[type='password']{
+			font-size: 16px;
+			padding: 10px;
+			height: auto;
+		}
+
+		input[type='tel'] {
+			.border-radius(3,3,0,0);
+		}
+		input[type='password'] {
+			.border-radius(0,0,3,3);
+		}
+
+		.checkbox {
+			span {
+				float: right;
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+nav {
+	font-size: 12px;
+	margin-right: 40px;
+}
+
+hr {
+	// color: @brand-disable;
+	border-top: 1px solid @brand-disable;
+}
+
+#nav-toggleable-sm {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.brand-logo {
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+
+
+@media (max-width: @screen-xs-max) {
+	// margin: 0;
+	nav {
+		margin-right: 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+}
+
+#calendar {
+	margin: 20px 0;
+	.fc table {
+		.border-radius(5px);
+	}
+	table {
+		border-collapse: separate;
+	}
+
+	@media (max-width: @screen-xs-max) {
+		
+		.fc-left, .fc-right {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+.head_title {
+	font-size: 12px;
+	color: @brand-disable;
+	letter-spacing: 1px;
+}
+
+.dashboard {
+	li {
+		letter-spacing: 2px;
+	}
+	@media (max-width: @screen-xs-max) {
+		.col-sm-3, .col-sm-9 {
+			padding: 0;
+		}
+	}
+}
+
+.ft-header {
+	min-height: 40px;
+	a {
+		text-decoration: none;
+		color: @brand-disable;
+	}
+	button {
+		margin: 0;
+		border-color: @brand-disable;
+		&:hover,
+	    &:focus {
+	      background-color: @brand-disable;
+	      .icon-bar{
+		      border: 1px solid #fff;
+			}
+	    }
+		
+	}
+}
+
+.dashhead {
+	.dashhead_titles {
+		float: left;
+		h3 {
+			letter-spacing: 3px;
+			font-size: 22px;
+		}
+
+	}
+	.dashhead_toolbar {
+		float: right;
+		.input-with-icon {
+			position: relative;
+			padding-top: 15px;
+			.start-time {
+				position: absolute;
+				top: 25px;
+				left: 10px;
+			}
+			.end-time {
+				position: absolute;
+				top: 25px;
+				right: 10px;
+			}
+
+			width: 185px;
+			float: left;
+
+			@media (max-width: @screen-xs-max) {
+				width: 100%;
+			}
+
+			#starttime {
+				padding-left: 30px;
+				.border-radius(4,0,0,4);
+			}
+			#endtime {
+				padding-right: 30px;
+				.border-radius(0,4,4,0);
+			}
+		}
+	}
+}
+
+.actions {
+	.btn {
+		margin-bottom: 10px;
+	}
+}
+
+.cover-image {
+	padding-top: 10px;
+	margin: 0 auto;
+	img {
+		max-width: 200px;
+	}
+}
+
+.hr-divider {
+	margin: 20px 0;
+	position: relative;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	&:before {
+		position: absolute;
+		top: 50%;
+		display: block;
+		content: "";
+		width: 100%;
+		background-color: @brand-disable;
+		height: 1px;
+	}
+	.hr-divider-heading {
+		position: relative;
+		display: inline-block;
+		padding-left: 1em;
+		padding-right: 1em;
+		vertical-align: middle;
+		font-size: 100%;
+	    margin-bottom: 0;
+	    margin-top: 0;
+	    background-color: @body-bg;
+	    color: @brand-disable;
+	}
+}
+
+.students {
+	color: @link-color;
+}
+
+table {
+	.good {
+		color: @brand-success;
+		small {
+			background-color: @brand-success;
+			color: #fff;
+			.border-radius(3px);
+			float: right;
+			margin-right: 20px;
+			padding: 0 10px;
+		}
+	}
+	.mal {
+		color: @brand-danger;
+		small {
+			background-color: @brand-danger;
+			color: #fff;
+			.border-radius(3px);
+			float: right;
+			margin-right: 20px;
+			padding: 0 10px;
+		}
+	}
+	.pass {
+		color: @brand-info;
+		small {
+			background-color: @brand-info;
+			color: #fff;
+			.border-radius(3px);
+			float: right;
+			margin-right: 20px;
+			padding: 0 10px;
+		}
+	}
+	
+	nav {
+		margin-right: 0;
+	}
+
+}
+
+.comment {
+	.comment_list {
+		padding-left: 0;
+		list-style: none;
+		li {
+			float: left;
+			text-decoration: none;
+			padding-right: 20px;
+		}
+
+	}
+}
+
+#courseware_modal {
+	.modal-header {
+		.modal-with-select {
+			h4 {
+				letter-spacing: 2px;
+			}
+			.form-group {
+				width: 160px;
+			}
+		}
+	}
+}
+
+#present_time, #answer_corret,#hw_score {
+	width: 100%;
+	@media (max-width: @screen-xs-max) {
+		height: 180px;
+	}
+	height: 250px;
+}
